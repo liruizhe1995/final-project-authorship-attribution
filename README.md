@@ -12,9 +12,6 @@ Warning: While using the spacy in the notebook, it will take a long time run the
 
 ## Project Description
 1. Input 13 novels from 4 differenct authors including:
-1. Item 1
-1. Item 2
-1. Item 3
    1. Jane Austen ("Sense & Sensibility (1811)", "Pride and Prejudice (1813)", "Emma (1815)"
    2. Charlotte Bronte ("The Professor", "Jane Eyre (1847)", "Shirley (1849)", "Villette (1853)"
    3. Charles Dickens ("Bleak House (1852)", "David Copperfield (1849)", "Hard Times (1854)"
@@ -46,3 +43,16 @@ Warning: While using the spacy in the notebook, it will take a long time run the
 7. The file "adj.csv" prints out the most common adjectives used by each author.
 8. The file "adv.csv" prints out the most common adverbs used by each author.
 
+## Conclusions
+1. Each author has her/his own relative frequencies and preference for words.
+2. All authors have very similar average word length, around 4.3 letters per word.
+3. Adjectives and adverbs used are very similar across all novels. This might due to the same era and location they were from.
+4. Regarding to average sentence length, only Charlotte Bronte has inconsistent sentence lengths across her own works.
+5. Regarding to lexical richness, Charlotte Bronte's Professor has an overall very high richness. Also, Charles Dickens' Hard 6. Times has higher lexical richness than his other novels.
+7. All three prediction models have very high accuracy, all over 0.9. Naïve Bayes model has the highest average precision among all, 0.98.
+8. For all three prediction models, the recall for Jane Austen is 1. It means that all models have accurately classify Austen's work, suggesting Austen's work is quite distinguishable from the others, probably because the other authors were from the same era while Austen was about 30 years ahead of them.
+9. For all three prediction models, the recall for George Eliot always the lowest. It means that all models have difficulty classifying Eliot's work, which is often confused with Dicken's work.
+
+## Reference
+https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python
+https://www.litcharts.com/blog/analitics/what-makes-hemingway/
