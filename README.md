@@ -4,6 +4,7 @@ This is the final project from ANLY 580 group Group Name Taken including 4 membe
 ) and 2 research paper: 1. [LDA model performs well on authorship attribution (Anwar et al., 2019, p. 3-5) among common NLP methods such as feature extraction of TF-IDF, n-grams, matrix preparation etc.](https://www.hindawi.com/journals/sp/2019/9431073/); 2. [Bag of stems and function words together have the top performance results on Turkish (Agun et al., 2017, p. 11)](https://ieeexplore.ieee.org/abstract/document/8258132). We tend to analyze the writing styles of each author and build models to identify the actual author given a piece of text. 
 
 ## Group Members and Parts Distribution
+
 1. Ruizhe Li and Wenhao Jiang: Descriptive Analysis
 2. Zihao Zhou: Predictive Analysis
 3. Xin Lu: Procedure Summary and poster design
@@ -12,7 +13,7 @@ This is the final project from ANLY 580 group Group Name Taken including 4 membe
 
 This project uses Python as prgramming language in Jupyter Notebook. We use [nltk](https://www.nltk.org/) and [spacy](https://spacy.io/usage) packages for processing the text data. Sklearn package is used for training and testing our models in the project. We also use matplotlib, [seaborn](https://seaborn.pydata.org/) and [plotly](https://plot.ly/python/) for plotting and graphing. 
 
-For using nltk model from spacy in the notebook, we need to download language model from spacy in the terminal by inputting 
+For using English nlp model from spacy in the notebook, we need to download language model from spacy in the terminal by inputting 
 ```bash
 python -m spacy download en_core_web_sm
 ```
