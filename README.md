@@ -68,7 +68,7 @@ Warning: While using the spacy in the notebook, it will take a long time run the
 9. For all three prediction models, the recall for George Eliot is always the lowest. It means that all models have difficulty classifying Eliot's work, which is often confused with Dicken's work.
 
 ## Reference
-https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python
-https://www.litcharts.com/blog/analitics/what-makes-hemingway/
-https://www.hindawi.com/journals/sp/2019/9431073/
-https://ieeexplore.ieee.org/abstract/document/8258132
+1. https://programminghistorian.org/en/lessons/introduction-to-stylometry-with-python
+2. https://www.litcharts.com/blog/analitics/what-makes-hemingway/
+3. https://www.hindawi.com/journals/sp/2019/9431073/
+4. https://ieeexplore.ieee.org/abstract/document/8258132
