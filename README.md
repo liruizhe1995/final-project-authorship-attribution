@@ -55,6 +55,7 @@ Warning: While using the spacy in the notebook, it will take a long time run the
 7. The file "adj.csv" prints out the most common adjectives used by each author.
 8. The file "adv.csv" prints out the most common adverbs used by each author.
 9. The file "pos.json" is the output after putting spacy model into the text data. It's for convenient usage because the spacy function takes a very long time to run.
+10. The image "flow.png" is the flow chart that describes the procedures of the project. 
 
 ## Conclusions
 
